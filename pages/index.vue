@@ -1,6 +1,6 @@
 <template lang="pug">
 v-row
-    v-col(cols='12', sm='12', md='8')
+    v-col(cols='12' md='6' lg='8')
         .cover-block
             .cover-block__foto
                 img(
@@ -13,14 +13,14 @@ v-row
                 span Developer
 
         v-row
-            v-col(cols='4' sm='12' md='5')
+            v-col(cols='12' sm='12' lg='5')
                 template(v-for='item in infoList')
                     List(:item='item')
 
-            v-col(cols='8' sm='12' md='7')
+            v-col(cols='12' sm='12' lg='7')
                 Timeline
 
-    v-col(class='py-0 align-md-stretch' cols='12', sm='12', md='4')
+    v-col(class='py-0 align-md-stretch' cols='12' md='6' lg='4')
         AboutMe
 </template>
 
@@ -99,16 +99,17 @@ export default {
     align-items: center;
     justify-content: left;
     min-height: 400px;
+    flex-wrap: wrap;
 
     &__foto {
         width: 286px;
         height: 286px;
+        min-width: 286px;
         display: flex;
         overflow: hidden;
-        min-width: 286px;
         position: relative;
         border-radius: 50%;
-        margin-right: 60px;
+        margin-right: 40px;
         transition: all 0.5s;
 
         img {
@@ -127,6 +128,7 @@ export default {
 
     &__text {
         display: flex;
+        margin: 20px 0px;
         flex-direction: column;
 
         span {
@@ -142,6 +144,20 @@ export default {
             &:nth-child(2) {
                 color: #a6bcce;
                 font-size: 30px;
+            }
+        }
+    }
+
+    @media screen and (max-width: 960px) {
+        justify-content: center;
+
+        &__foto {
+            width: 240px;
+            height: 240px;
+            min-width: 240px;
+
+            img {
+                width: 260px;
             }
         }
     }

@@ -4,7 +4,9 @@
 html {
     body {
         #app.theme--light.v-application {
-            background: linear-gradient(90deg, $background-color 75%, #edf1f5 75%);
+            @media screen and (min-width: 960px) {
+                background: linear-gradient(90deg, $background-color 75%, #edf1f5 75%);
+            }
         }
         
         .container {

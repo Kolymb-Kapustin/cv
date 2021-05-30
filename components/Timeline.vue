@@ -71,8 +71,6 @@ export default {
 @import "~static/scss/vars.scss";
 
 .history {
-    margin: 0 16px;
-
     &__header {
         font-size: 20px;
         letter-spacing: 2px;

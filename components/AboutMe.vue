@@ -1,6 +1,6 @@
 <template lang="pug">
 .about-me
-    .about-me__head
+    .about-me__head.d-none.d-md-flex
         span CALL ME
         span +38 095 747 14 31
 
@@ -52,6 +52,7 @@ export default {
         display: flex;
         flex-direction: column;
         padding-top: 129px;
+        margin-bottom: 156px;
 
         span {
             letter-spacing: 2px;
@@ -73,7 +74,7 @@ export default {
         font-size: 20px;
         letter-spacing: 2px;
         font-weight: bold;
-        margin: 156px 0 20px;
+        margin: 20px 0;
         color: #53809e;
         text-transform: uppercase;
         border-bottom: 1px solid #53809e;
