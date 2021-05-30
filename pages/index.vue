@@ -155,6 +155,7 @@ export default {
             width: 240px;
             height: 240px;
             min-width: 240px;
+            margin-right: 0px;
 
             img {
                 width: 260px;
