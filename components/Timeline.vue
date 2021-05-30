@@ -82,7 +82,7 @@ export default {
     }
 
     &__timeline {
-        margin: 0 40px;
+        margin-left: 40px;
         max-width: 100%;
 
         &.v-timeline--dense .v-timeline-item__opposite {
