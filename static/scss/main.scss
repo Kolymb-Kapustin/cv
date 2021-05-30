@@ -8,7 +8,11 @@ html {
                 background: linear-gradient(90deg, $background-color 75%, #edf1f5 75%);
             }
         }
-        
+
+        .v-main {
+            overflow: hidden;
+        }
+
         .container {
           @media screen and (min-width: 1440px) {
               max-width: 1440px;

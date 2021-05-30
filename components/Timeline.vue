@@ -82,7 +82,8 @@ export default {
     }
 
     &__timeline {
-        margin-left: 40px;
+        margin: 0 40px;
+        max-width: 100%;
 
         &.v-timeline--dense .v-timeline-item__opposite {
             left: -38px;
@@ -144,6 +145,12 @@ export default {
                 .v-timeline-item__inner-dot {
                     width: 22px;
                     height: 22px;
+                }
+            }
+
+            &__description {
+                a {
+                    word-break: break-all;
                 }
             }
         }
