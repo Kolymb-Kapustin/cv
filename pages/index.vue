@@ -43,7 +43,7 @@ export default {
                     head: 'personal',
                     info: {
                         name: 'Nikolay Kapustin',
-                        birthday: '4th March 1996 (25)',
+                        birthday: '4th March 1996 (26)',
                         languages: 'English(B2) Ukrainian Russian',
                         nationality: 'Ukraine'
                     }

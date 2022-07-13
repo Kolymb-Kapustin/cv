@@ -23,11 +23,6 @@ export default {
         return {
             years: [
                 {
-                    title: 'Lectrum',
-                    description: 'Comprehensive course: Backend, from the fundamentals <a href="https://lectrum.io/course/backend">https://lectrum.io/course/backend</a>',
-                    year: '2020'
-                },
-                {
                     title: 'Yellow Stone',
                     description: 'IT company <a href="https://jobs.dou.ua/companies/yellow-stone"/>https://jobs.dou.ua/companies/yellow-stone</a>',
                     year: '2019'
@@ -46,21 +41,6 @@ export default {
                     title: 'Freelance',
                     description: 'The first steps on my way',
                     year: '2016'
-                },
-                {
-                    title: 'Main Academy',
-                    description: 'The first and largest in Ukraine comprehensive system of training certified specialists for IT companies <a href="https://mainacademy.ua/">https://mainacademy.ua/</a>',
-                    year: '2015'
-                },
-                {
-                    title: 'Lviv, Higher vocational school',
-                    description: 'Computer`s operator',
-                    year: '2014'
-                },
-                {
-                    title: 'High-school',
-                    description: 'Lugansk, School gymnasium №60',
-                    year: '2013'
                 }
             ]
         }
