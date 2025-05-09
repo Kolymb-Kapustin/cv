@@ -23,8 +23,13 @@ export default {
         return {
             years: [
                 {
-                    title: 'Yellow Stone',
-                    description: 'IT company <a href="https://jobs.dou.ua/companies/yellow-stone"/>https://jobs.dou.ua/companies/yellow-stone</a>',
+                    title: 'Blackbit Digital (2023 — 2025) International Digital Agency',
+                    description: 'IT company </br> <a href="https://jobs.dou.ua/companies/yellow-stone"/>https://jobs.dou.ua/companies/yellow-stone</a> </br> <a href="https://jobs.dou.ua/companies/evoplay/"/>https://jobs.dou.ua/companies/evoplay/</a></br> I work here with lots of projects and use Vue/Nuxt/Less/PUG/BEM',
+                    year: '2019'
+                },
+                {
+                    title: 'Yellow Stone (Evoplay)',
+                    description: 'IT company </br> <a href="https://jobs.dou.ua/companies/yellow-stone"/>https://jobs.dou.ua/companies/yellow-stone</a> </br> <a href="https://jobs.dou.ua/companies/evoplay/"/>https://jobs.dou.ua/companies/evoplay/</a></br> I work here with lots of projects and use Vue/Nuxt/Less/PUG/BEM',
                     year: '2019'
                 },
                 {

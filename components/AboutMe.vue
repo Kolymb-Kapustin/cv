@@ -7,9 +7,9 @@
     .about-me__title About me
 
     .about-me__text
-        div Hi, my name is Nikolay, I'm 26 and I'm a developer, I love my job because I like creating, developing products, seeing satisfied customers, and growing like a professional. This is a resume to get the very job where it will be pleasant for us to cooperate and achieve more.
+        div Hi, my name is Nikolay, I'm 27 and I'm a developer, I love my job because I like creating, developing products, seeing satisfied customers, and growing like a professional. This is a resume to get the very job where it will be pleasant for us to cooperate and achieve more.
         br
-        div Well, a little about my experience - I have been working with Vue almost from the very beginning of my career, how much jquery code has been rewritten)) and how much has been written from scratch more. I have worked from styling and markup to databases for the past few years and have enjoyed growing as a full-stack developer.
+        div Well, a little about my experience - I have been working with Vue almost from the very beginning of my career, how much jquery code has been rewritten)) and how much has been written from scratch more.
 
     .about-me__contacts
         List(:item='contacts')

@@ -43,28 +43,28 @@ export default {
                     head: 'personal',
                     info: {
                         name: 'Nikolay Kapustin',
-                        birthday: '4th March 1996 (26)',
-                        languages: 'English(B2) Ukrainian Russian',
+                        birthday: '4th March 1996 (27)',
+                        languages: 'English(B1) Ukrainian Russian',
                         nationality: 'Ukraine'
                     }
                 },
                 {
                     head: 'skills',
                     info: [
-                        'Node, Nuxt',
                         'Vue Vuex Vuetify',
                         'JavaScript Jquery',
-                        'CSS (LESS) (SASS) (SCSS)',
+                        'Node, Nuxt',
+                        'CSS (LESS) (SASS) (SCSS) HTML (PUG)',
                         'Sequlilize (SQL) Mongoose (Mongodb)'
                     ]
                 },
                 {
                     head: 'work',
                     info: {
-                        experience: '4,5 years',
+                        experience: '6 years',
                         currently: 'JS Developer',
                         stack:
-                            'Sequalize, Sql, Node, Nuxt, Vue, Vuex, JavaScript'
+                            'JavaScript, Vue, Node(Basic)'
                     }
                 },
                 {
